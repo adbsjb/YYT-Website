@@ -55,6 +55,16 @@
 		<?php	include 'navmenu.php'?>
 	</div>
 
+	<div id="currentProductions">
+		<!-- start slipsum code -->
+
+	<p>Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque porttitor egestas</p>
+
+	<!-- end slipsum code -->
+
+	<!-- ABOUT 15 WORD FIT HERE -->
+	</div>
+
 <div id="mainSlideShow">
 	<div id="slideshowBox">
 	<img src="assets/test full.png" id="slideshowImage"></img>
@@ -83,10 +93,19 @@
 		</a>
 	</div>
 </div>
+<<<<<<< HEAD
 <div id="aboutUs">
 	<h1>Welcome to Yeovil youth theatre</h1>
 	<p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.</p>
 </div>
 <div id="ourSponsers"><div>
+=======
+<div id="aboutUs"></div>
+<div id="ourSponsers">
+<?php
+	include 'sponserBanner.php'
+?>
+	<div>
+>>>>>>> origin/master
 </body>
 </html>
