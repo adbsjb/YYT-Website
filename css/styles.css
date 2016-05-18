@@ -1,6 +1,10 @@
 /* A linked Stylesheet
 First style Selector defaults (HTML Tags)
 */
+/*
+colours used by Yeovil Youth Theatre:
+Red: #ed1f24
+*/
 body{
 	margin:1em;
 	padding:0px;
@@ -51,7 +55,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #111;
+    background-color: #ed1f24;
 }
 #mainSlideShow{
 	display:block;		/*Default*/
@@ -93,6 +97,7 @@ li a:hover {
 	width:820px;
 	height:150px;
 	margin:0px auto;
+	text-align: center;
 }
 #ourSponsers{
 	display:block;		/*Default*/
