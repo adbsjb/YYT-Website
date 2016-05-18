@@ -99,6 +99,11 @@ li a:hover {
 	margin:0px auto;
 	text-align: center;
 }
+
+#aboutUs h1{
+	margin: 0;
+}
+
 #ourSponsers{
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
