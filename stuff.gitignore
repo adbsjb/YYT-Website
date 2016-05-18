@@ -28,6 +28,10 @@ ehthumbs.db
 Thumbs.db
 
 
+<<<<<<< HEAD
 .*
 
 !/.gitignore
+=======
+"Yeovil Youth Theatre\_gsdata_"
+>>>>>>> refs/remotes/origin/Convert-to-php
