@@ -8,6 +8,43 @@
 	<meta name ="keywords" content="html, css, web design, bath, bath college">
 	<meta name ="charset" content="utf-8">
 	<link rel= "stylesheet" href= "css/styles.css" type= "text/css">
+
+	<!-- Jquery start -->
+
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<!-- Jquery end -->
+
+<script>
+	//JQuery slideshow start
+
+	  $('document').ready(function(){
+
+	    setInterval(function() {
+	      var imageObject = $('#slideshowImage');
+	      var imagePosition = imageObject.css('left');
+
+	      if(imagePosition == "0px"){
+	        imageObject.animate({left: '-380px'});
+
+	      }else if(imagePosition == "-380px"){
+	        imageObject.animate({left: '-760px'});
+
+	      }else if (imagePosition == "-760px"){
+	        imageObject.animate({left: '-1140px'});
+
+	      }else{
+	        imageObject.animate({left: '0px'});
+
+	      }
+	    }, 1500);
+	  });
+
+	  //JQuery slideshow end
+</script>
+
+
 </head>
 <body>
 	<div id="header"></div>
@@ -16,7 +53,12 @@
 		<?php	include 'navmenu.php'?>
 	</div>
 
-<div id="mainSlideShow"></div>
+<div id="mainSlideShow">
+	<div id="slideshowBox">
+	<img src="assets/test full.png" id="slideshowImage"></img>
+	<!--  PUT MARGIN AROUND SLIDESHOW	-->
+	</div>
+</div>
 <div id="buttonWrapper">
 	<div id="buttonOne"></div>
 	<div id="buttonTwo"></div>
