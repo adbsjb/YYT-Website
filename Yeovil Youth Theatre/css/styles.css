@@ -1,0 +1,103 @@
+/* A linked Stylesheet
+First style Selector defaults (HTML Tags)
+*/
+body{
+	margin:1em;
+	padding:0px;
+	font-family:arial, sans-serif;
+	font-size:14pt; /*1em at the body*/
+	color:#404040; /*Charcoal*/
+}
+#header{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:80px;
+	margin:0px auto;
+	background-color: blue;
+}
+#menu{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:40px;
+	margin:0px auto;
+	font-size: 14.5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+#mainSlideShow{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:380px;
+	margin:0px auto;
+	background-color: orange;
+}
+#buttonWrapper{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:80px;
+	margin:0px auto;
+}
+#buttonOne{
+	width:205px;
+	height:80px;
+	float:left;
+	background-color: pink;
+}
+#buttonTwo{
+	width:205px;
+	height:80px;
+	float:left;
+	background-color: purple;
+}
+#buttonThree{
+	width:205px;
+	height:80px;
+	float:left;
+	background-color: red;
+}
+#buttonFour{
+	width:205px;
+	height:80px;
+	float:left;
+	background-color: yellow;
+}
+#aboutUs{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:150px;
+	margin:0px auto;
+	background-color: lightgreen;
+}
+#ourSponsers{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:120px;
+	margin:0px auto;
+	background-color: lightblue;
+}
