@@ -14,7 +14,6 @@ body{
 	width:820px;
 	height:80px;
 	margin:0px auto;
-	background-color: blue;
 }
 #menu{
 	display:block;		/*Default*/
@@ -52,7 +51,6 @@ li a:hover {
 	width:820px;
 	height:380px;
 	margin:0px auto;
-	background-color: orange;
 }
 #buttonWrapper{
 	display:block;		/*Default*/
@@ -65,25 +63,21 @@ li a:hover {
 	width:205px;
 	height:80px;
 	float:left;
-	background-color: pink;
 }
 #buttonTwo{
 	width:205px;
 	height:80px;
 	float:left;
-	background-color: purple;
 }
 #buttonThree{
 	width:205px;
 	height:80px;
 	float:left;
-	background-color: red;
 }
 #buttonFour{
 	width:205px;
 	height:80px;
 	float:left;
-	background-color: yellow;
 }
 #aboutUs{
 	display:block;		/*Default*/
@@ -91,7 +85,6 @@ li a:hover {
 	width:820px;
 	height:150px;
 	margin:0px auto;
-	background-color: lightgreen;
 }
 #ourSponsers{
 	display:block;		/*Default*/
@@ -99,7 +92,6 @@ li a:hover {
 	width:820px;
 	height:120px;
 	margin:0px auto;
-	background-color: lightblue;
 }
 
 #slideshowBox{
@@ -113,4 +105,33 @@ li a:hover {
 	display: block;
 	position: relative;
 	overflow: hidden;
+}
+.button{
+	margin: auto;
+	display: block;
+}
+/*Backgroup-color for all*/
+#header{
+	background-color: blue;
+}
+#mainSlideShow{
+	background-color: orange;
+}
+#buttonOne{
+	background-color: pink;
+}
+#buttonTwo{
+	background-color: purple;
+}
+#buttonThree{
+	background-color: red;
+}
+#buttonFour{
+	background-color: yellow;
+}
+#aboutUs{
+	background-color: lightgreen;
+}
+#ourSponsers{
+	background-color: lightblue;
 }

@@ -60,10 +60,18 @@
 	</div>
 </div>
 <div id="buttonWrapper">
-	<div id="buttonOne"></div>
-	<div id="buttonTwo"></div>
-	<div id="buttonThree"></div>
-	<div id="buttonFour"></div>
+	<div id="buttonOne">
+		<img src="assets/currentProductionButton.png" class="button"></img>
+	</div>
+	<div id="buttonTwo">
+		<img src="assets/joiningUsButton.png" class="button"></img>
+	</div>
+	<div id="buttonThree">
+		<img src="assets/fundraisersButton.png" class="button"></img>
+	</div>
+	<div id="buttonFour">
+		<img src="assets/sponsorsButton.png" class="button"></img>
+	</div>
 </div>
 <div id="aboutUs"></div>
 <div id="ourSponsers"><div>
