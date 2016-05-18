@@ -1,9 +1,0 @@
-this is a test
-
-
-
-<<<<<<< HEAD
-Hello
-=======
-hi there this is alex
->>>>>>> origin/master

@@ -55,6 +55,16 @@
 		<?php	include 'navmenu.php'?>
 	</div>
 
+	<div id="currentProductions">
+		<!-- start slipsum code -->
+
+	<p>Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque porttitor egestas</p>
+
+	<!-- end slipsum code -->
+
+	<!-- ABOUT 15 WORD FIT HERE -->
+	</div>
+
 <div id="mainSlideShow">
 	<div id="slideshowBox">
 	<img src="assets/test full.png" id="slideshowImage"></img>

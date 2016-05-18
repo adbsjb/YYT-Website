@@ -114,16 +114,37 @@ li a:hover {
 	position: relative;
 	overflow: hidden;
 }
+
+#currentProductions{
+	width: 820px;
+	height: 44px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+}
+
+#currentProductions p{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
 .button{
 	margin: auto;
 	display: block;
 }
 /*Backgroup-color for all*/
-/*#header{
+
+
+#header{
 	background-color: blue;
 }
 #mainSlideShow{
 	background-color: orange;
+}
+#currentProductions{
+	background-color: #1abc9c;
 }
 #buttonOne{
 	background-color: pink;
@@ -142,4 +163,4 @@ li a:hover {
 }
 #ourSponsers{
 	background-color: lightblue;
-}*/
+}
