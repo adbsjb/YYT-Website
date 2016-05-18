@@ -86,6 +86,10 @@
 	</div>
 </div>
 <div id="aboutUs"></div>
-<div id="ourSponsers"><div>
+<div id="ourSponsers">
+<?php
+	include 'sponserBanner.php'
+?>
+	<div>
 </body>
 </html>
