@@ -15,11 +15,19 @@ body{
 	height:80px;
 	margin:0px auto;
 }
+
+#header img{
+	height: 80px;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
 #menu{
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
-	height:40px;
+	height:44px;
 	margin:0px auto;
 	font-size: 14.5px;
 }

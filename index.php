@@ -47,7 +47,9 @@
 
 </head>
 <body>
-	<div id="header"></div>
+	<div id="header">
+		<img src="assets/long logo.png"></img>
+	</div>
 
 	<div id="menu">
 		<?php	include 'navmenu.php'?>
