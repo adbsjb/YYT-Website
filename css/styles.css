@@ -11,6 +11,7 @@ body{
 	font-family:arial, sans-serif;
 	font-size:14pt; /*1em at the body*/
 	color:#404040; /*Charcoal*/
+	background-color: #FA4B4F;
 }
 #header{
 	display:block;		/*Default*/
@@ -140,10 +141,27 @@ li a:hover {
 
 }
 
+#buttonOne img{
+	background-image: url("../assets/unpressedCurrentProductionButton.png");
+	height: 70px;
+	width: 190px;
+}
+
+#buttonOne img:hover{
+	background-image: url('../assets/currentProductionButton.png');
+}
+
+div{
+	border: 10px;
+	border-color: black;
+}
+
 .button{
 	margin: auto;
 	display: block;
 }
+
+
 /*Backgroup-color for all*/
 
 

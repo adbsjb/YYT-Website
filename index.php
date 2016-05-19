@@ -8,6 +8,7 @@
 	<meta name ="keywords" content="html, css, web design, bath, bath college">
 	<meta name ="charset" content="utf-8">
 	<link rel= "stylesheet" href= "css/styles.css" type= "text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 	<!-- Jquery start -->
 
@@ -58,9 +59,9 @@
 	<div id="currentProductions">
 		<!-- start slipsum code -->
 
-	<p>Proin ut quam eros. Donec sed lobortis diam. Nulla nec odio lacus. Quisque porttitor egestas</p>
+<p>Well, the way they make shows is, they make one show. That show's called a pilot.</p>
 
-	<!-- end slipsum code -->
+<!-- end slipsum code -->
 
 	<!-- ABOUT 15 WORD FIT HERE -->
 	</div>
@@ -74,22 +75,22 @@
 <div id="buttonWrapper">
 	<div id="buttonOne">
 		<a href="currentProduction.HTML">
-		<img src="assets/currentProductionButton.png" class="button"></img>
+		<img class="button"></img>
 	</a>
 	</div>
 	<div id="buttonTwo">
 		<a href="joiningUs.HTML">
-		<img src="assets/joiningUsButton.png" class="button"></img>
+		<img src="assets/unpressedJoiningUsButton.png" class="button"></img>
 		</a>
 	</div>
 	<div id="buttonThree">
 		<a href="fundraisers.HTML">
-		<img src="assets/fundraisersButton.png" class="button"></img>
+		<img src="assets/unpressedFundraisersButton.png" class="button"></img>
 		</a>
 	</div>
 	<div id="buttonFour">
 		<a href="sponsors.HTML">
-		<img src="assets/sponsorsButton.png" class="button"></img>
+		<img src="assets/unpressedSponsorsButton.png" class="button"></img>
 		</a>
 	</div>
 </div>
