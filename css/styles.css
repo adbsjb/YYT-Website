@@ -58,8 +58,37 @@ li a {
 li a:hover {
     background-color: #ed1f24;
 }
+
+#imageAndTextWrapper{
+	width: 820px;
+	height: 530px;
+	margin: auto;
+}
+
+#whoAreWeText{
+	width: 410px;
+	height: 530px;
+	background-color: goldenrod;
+	display: block;
+	margin:auto;
+	float: left;
+}
+
+#whoWeAreImageBox{
+	display:block;			/*Default*/
+	position:relative;	/*Default*/
+	width:410px;
+	height:530px;
+	margin:0px auto;
+	float: right;
+}
+
+#whoWeAreImage{
+	padding-top: 75px;
+}
+
 #mainSlideShow{
-	display:block;		/*Default*/
+	display:block;			/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
 	height:380px;

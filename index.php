@@ -63,7 +63,7 @@
 
 <!-- end slipsum code -->
 
-	<!-- ABOUT 15 WORD FIT HERE -->
+	<!-- ABOUT 15 WORDs FIT HERE -->
 	</div>
 
 <div id="mainSlideShow">

@@ -1,4 +1,0 @@
-All wordcounts are estimates
-
-
-currentProductions = 15
