@@ -5,6 +5,9 @@ First style Selector defaults (HTML Tags)
 colours used by Yeovil Youth Theatre:
 Red: #ed1f24
 */
+h2 {
+	font-size: 23px;
+}
 body{
 	margin:1em;
 	padding:0px;
@@ -63,6 +66,28 @@ li a:hover {
 	width: 820px;
 	height: 530px;
 	margin: auto;
+}
+#currentText{
+	width: 410px;
+	height: 530px;
+	display: block;
+	margin:auto;
+	float: left;
+}
+#currentImageBox{
+	display:block;			/*Default*/
+	position:relative;	/*Default*/
+	width:410px;
+	height:530px;
+	margin:0px auto;
+	float: right;
+}
+#currentImage{
+	padding-top: 38px;
+	width:400px;
+	height:440px;
+	padding-left:5px;
+	padding-right:5px;
 }
 
 #whoAreWeText{
