@@ -180,6 +180,36 @@ li a:hover {
 	background-image: url('../assets/currentProductionButton.png');
 }
 
+#buttonTwo img{
+	background-image: url('../assets/unpressedJoiningUsButton.png');
+	height: 70px;
+	width: 190px;
+}
+
+#buttonTwo img:hover{
+	background-image: url('../assets/joiningUsButton.png');
+}
+
+#buttonThree img{
+	background-image: url('../assets/unpressedFundraisersButton.png');
+	height: 70px;
+	width: 190px;
+}
+
+#buttonThree img:hover{
+	background-image: url('../assets/fundraisersButton.png');
+}
+
+#buttonFour img{
+	background-image: url('../assets/unpressedSponsorsButton.png');
+	height: 70px;
+	width: 190px;
+}
+
+#buttonFour img:hover{
+	background-image: url('../assets/sponsorsButton.png');
+}
+
 div{
 	border: 10px;
 	border-color: black;

@@ -80,17 +80,17 @@
 	</div>
 	<div id="buttonTwo">
 		<a href="joiningUs.HTML">
-		<img src="assets/unpressedJoiningUsButton.png" class="button"></img>
+		<img class="button"></img>
 		</a>
 	</div>
 	<div id="buttonThree">
 		<a href="fundraisers.HTML">
-		<img src="assets/unpressedFundraisersButton.png" class="button"></img>
+		<img class="button"></img>
 		</a>
 	</div>
 	<div id="buttonFour">
 		<a href="sponsors.HTML">
-		<img src="assets/unpressedSponsorsButton.png" class="button"></img>
+		<img class="button"></img>
 		</a>
 	</div>
 </div>
