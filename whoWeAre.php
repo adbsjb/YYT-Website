@@ -19,6 +19,9 @@
 
 </head>
 <body>
+	<?php
+	include 'testing.php'
+	?>
 	<div id="header">
 		<img src="assets/long logo.png"></img>
 	</div>
