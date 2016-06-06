@@ -5,7 +5,7 @@ First style Selector defaults (HTML Tags)
 colours used by Yeovil Youth Theatre:
 Red: #ed1f24
 */
-h2 {/*This is the heading used on the current prodcution webpages*/
+h2 {/*This is the heading used on the current production webpages*/
 	font-size: 23px;
 }
 body{/*This gives all containers and content on the website these styles*/
@@ -17,12 +17,12 @@ body{/*This gives all containers and content on the website these styles*/
 	background-color: #FA4B4F;/*This gives all the containers we have a white background colour*/
 }
 #header{ /*These are the styles used for our website's header*/
-	display:block;		/*This propertie makes the containter display below the last container going down vertically. This is the first container and so it is at the top*/
-	position:relative;	/*This means that the position of the container will act normally. If the container is given any addition stlyes for example right:50px it would move 50 pixels right*/
+	display:block;		/*This property makes the container display below the last container ont he webpage going down vertically. This is the first container and so it is at the top of the webpage*/
+	position:relative;	/*This means that the position of the container will act normally. If the container is given any additional styles for example right:50px it would move 50 pixels right*/
 	width:820px; /*This is the width of the header*/
 	height:80px; /*This is the height of the header*/
-	margin:0px auto; /*This reprents the margin on every side. At the moment this is 0 pixels*/
-	border: 2px black solid; /* This is the border around every */
+	margin:0px auto; /*This puts a margin on every side of the container. At the moment this is 0 pixels*/
+	border: 2px black solid; /* This is the border around every side of the container*/
 }
 
 #header img{/*These are the styles for the YYT logo in the header of the website*/
@@ -65,7 +65,7 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
     background-color: #ed1f24;
 }
 
-#imageAndTextWrapper{/*These are the properties for the images and text wrapper which containers current text and current image box. Thsi allows both containers to be on the same side.*/
+#imageAndTextWrapper{/*These are the properties for the images and text wrapper which containers current text and current image box. This allows both containers to be on the same side.*/
 	width: 820px;
 	height: 530px;
 	margin: auto;
@@ -95,16 +95,15 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	padding-right:5px;/*This is padding only used on the right*/
 }
 
-#whoAreWeText{
+#whoAreWeText{/*These are the properties for the text used on the who we are page*/
 	width: 410px;
 	height: 530px;
-	background-color: goldenrod;
 	display: block;
 	margin:auto;
 	float: left;
 }
 
-#whoWeAreImageBox{
+#whoWeAreImageBox{/*These are the properties for the image container used on the who we are page*/
 	display:block;			/*Default*/
 	position:relative;	/*Default*/
 	width:410px;
@@ -113,11 +112,11 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	float: right;
 }
 
-#whoWeAreImage{
+#whoWeAreImage{/*These are the properties for the image used on the who we are page*/
 	padding-top: 75px;
 }
 
-#mainSlideShow{
+#mainSlideShow{/*These are the properties for the main slide show used on the home page*/
 	display:block;			/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
@@ -126,7 +125,7 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	border: black solid;
 	border-width: 0 2px 2px 2px
 }
-#buttonWrapper{
+#buttonWrapper{/*These are the properties for the wrapper with 4 buttons in it used on the home page*/
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
@@ -135,27 +134,27 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	border: black solid;
 	border-width: 0 2px 2px 2px
 }
-#buttonOne{
+#buttonOne{/*These are the properties for the first button on the home page*/
 	width:205px;
 	height:80px;
 	float:left;
 }
-#buttonTwo{
+#buttonTwo{/*These are the properties for the second button on the home page*/
 	width:205px;
 	height:80px;
 	float:left;
 }
-#buttonThree{
+#buttonThree{/*These are the properties for the third button on the home page*/
 	width:205px;
 	height:80px;
 	float:left;
 }
-#buttonFour{
+#buttonFour{/*These are the properties for the fourth button on the home page*/
 	width:205px;
 	height:80px;
 	float:left;
 }
-#aboutUs{
+#aboutUs{/*These are the properties for the about us container on the home page*/
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
@@ -166,11 +165,11 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	border-width: 0 2px 2px 2px
 }
 
-#aboutUs h1{
+#aboutUs h1{/*These are the properties for the our sponsors showcase on the home page*/
 	margin: 0;
 }
 
-#ourSponsers{
+#ourSponsers{/*These are the properties for the our sponsors showcase on the home page*/
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
@@ -180,20 +179,20 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	border-width: 0 2px 2px 2px
 }
 
-#slideshowBox{
+#slideshowBox{/*This is used to make the slide show work on the homepage*/
 	overflow: hidden;
 	margin: auto;
 	width: 380px;
 	height: 380px;
 }
 
-#slideshowImage{
+#slideshowImage{/*This is used to make the slide show work on the homepage*/
 	display: block;
 	position: relative;
 	overflow: hidden;
 }
 
-#currentProductions{
+#currentProductions{/*This will be used when we add a current productions banner to our homepage*/
 	width: 820px;
 	height: 44px;
 	display: block;
@@ -204,65 +203,65 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 
 }
 
-#currentProductions p{
+#currentProductions p{/*This will be used when we add a current productions banner to our homepage*/
 	font-size: 20px;
 	text-align: center;
 	margin-top: 10px;
 
 }
 
-#buttonOne img{
+#buttonOne img{/*This loads the button images in the button containers*/
 	background-image: url("../assets/unpressedCurrentProductionButton.png");
 	height: 70px;
 	width: 190px;
 }
 
-#buttonOne img:hover{
+#buttonOne img:hover{/*This loads a different button image in the button containers when someone hovers over them*/
 	background-image: url('../assets/currentProductionButton.png');
 }
 
-#buttonTwo img{
+#buttonTwo img{/*This loads the button images in the button containers*/
 	background-image: url('../assets/unpressedJoiningUsButton.png');
 	height: 70px;
 	width: 190px;
 }
 
-#buttonTwo img:hover{
+#buttonTwo img:hover{/*This loads a different button image in the button containers when someone hovers over them*/
 	background-image: url('../assets/joiningUsButton.png');
 }
 
-#buttonThree img{
+#buttonThree img{/*This loads the button images in the button containers*/
 	background-image: url('../assets/unpressedFundraisersButton.png');
 	height: 70px;
 	width: 190px;
 }
 
-#buttonThree img:hover{
+#buttonThree img:hover{/*This loads a different button image in the button containers when someone hovers over them*/
 	background-image: url('../assets/fundraisersButton.png');
 }
 
-#buttonFour img{
+#buttonFour img{/*This loads the button images in the button containers*/
 	background-image: url('../assets/unpressedSponsorsButton.png');
 	height: 70px;
 	width: 190px;
 }
 
-#buttonFour img:hover{
+#buttonFour img:hover{/*This loads a different button image in the button containers when someone hovers over them*/
 	background-image: url('../assets/sponsorsButton.png');
 }
 
-div{
+div{/*This is done for any divs used on the website*/
 	border: 10px;
 	border-color: black;
 }
 
-.button{
+.button{/*This is a class for our buttons so they all have the same properties*/
 	margin: auto;
 	display: block;
 }
 
 
-/*Backgroup-color for all*/
+/*Background-color for all. This is done so we can turn on and off background colours when editing our website*/
 
 div{
 	background-color: white !important;
