@@ -26,10 +26,10 @@
 	      var imageObject = $('#slideshowImage');
 	      var imagePosition = imageObject.css('left');
 
-	      if(imagePosition == "0px"){
-	        imageObject.animate({left: '-380px'});
+	      if(imagePosition == "0px"){									//detects if the image is at the start position
+	        imageObject.animate({left: '-380px'});		//sets how many pixels the image will move
 
-	      }else if(imagePosition == "-380px"){
+	      }else if(imagePosition == "-380px"){				//repeats above and following commands until one of the start positions is found
 	        imageObject.animate({left: '-760px'});
 
 	      }else if (imagePosition == "-760px"){
@@ -39,7 +39,7 @@
 	        imageObject.animate({left: '0px'});
 
 	      }
-	    }, 1500);
+	    }, 1500);																			//sets the delay (in milliseconds) before the function is looped again
 	  });
 
 	  //JQuery slideshow end
@@ -50,13 +50,15 @@
 <body>
 	<?php
 	include 'testing.php'
-	?>
+	?>																									<!--temporary links at the top of the page to reduce clutter in the main page-->
 	<div id="header">
+		<a href="index.php">
 		<img src="assets/long logo.png"></img>
+		</a>
 	</div>
 
 	<div id="menu">
-		<?php	include 'navmenu.php'?>
+		<?php	include 'navmenu.php'?>											<!--inserted code from the php page, navmenu.php-->
 	</div>
 
 	<div id="currentProductions">

@@ -20,13 +20,13 @@
 <body>
 	<?php
 	include 'testing.php'
-	?>
+	?>																											<!--temporary links at the top of the page to reduce clutter in the main page-->
 	<div id="header">
 		<img src="assets/long logo.png"></img>
 	</div>
 
 	<div id="menu">
-		<?php	include 'navmenu.php'?>
+		<?php	include 'navmenu.php'?>													<!--inserted code from the php page, navmenu.php-->
 	</div>
 
 	<div id="currentProductions">
