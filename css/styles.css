@@ -88,11 +88,11 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	float: right; /*This property allows for two containers to fit on the same line*/
 }
 #currentImage{/*These are the properties for the current image used on the current production page*/
-	padding-top: 38px;
+	padding-top: 38px;/*This is padding only used on the top of the image*/
 	width:400px;
 	height:440px;
-	padding-left:5px;
-	padding-right:5px;
+	padding-left:5px;/*This is padding only used on the left*/
+	padding-right:5px;/*This is padding only used on the right*/
 }
 
 #whoAreWeText{
