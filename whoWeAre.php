@@ -13,7 +13,7 @@
 	<!-- Jquery start -->
 
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 	<!-- Jquery end -->
 
