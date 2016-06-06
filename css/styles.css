@@ -5,34 +5,34 @@ First style Selector defaults (HTML Tags)
 colours used by Yeovil Youth Theatre:
 Red: #ed1f24
 */
-h2 {
+h2 {/*This is the heading used on the current prodcution webpages*/
 	font-size: 23px;
 }
-body{
+body{/*This gives all containers and content on the website these styles*/
 	margin:1em;
-	padding:0px;
-	font-family:arial, sans-serif;
+	padding:0px;/*This is any space on the inside of the container between the borders of the container and the content inside*/
+	font-family:arial, sans-serif;/*This is what font is used on the website*/
 	font-size:14pt; /*1em at the body*/
 	color:#404040; /*Charcoal*/
-	background-color: #FA4B4F;
+	background-color: #FA4B4F;/*This gives all the containers we have a white background colour*/
 }
-#header{
-	display:block;		/*Default*/
-	position:relative;	/*Default*/
-	width:820px;
-	height:80px;
-	margin:0px auto;
-	border: 2px black solid;
+#header{ /*These are the styles used for our website's header*/
+	display:block;		/*This propertie makes the containter display below the last container going down vertically. This is the first container and so it is at the top*/
+	position:relative;	/*This means that the position of the container will act normally. If the container is given any addition stlyes for example right:50px it would move 50 pixels right*/
+	width:820px; /*This is the width of the header*/
+	height:80px; /*This is the height of the header*/
+	margin:0px auto; /*This reprents the margin on every side. At the moment this is 0 pixels*/
+	border: 2px black solid; /* This is the border around every */
 }
 
-#header img{
+#header img{/*These are the styles for the YYT logo in the header of the website*/
 	height: 80px;
 	width: auto;
 	display: block;
 	margin: auto;
 }
 
-#menu{
+#menu{ /*These are the styles used for our website's menu*/
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
 	width:820px;
@@ -40,54 +40,54 @@ body{
 	margin:0px auto;
 	font-size: 14.5px;
 	border: black solid;
-	border-width: 0 2px 2px 2px
+	border-width: 0 2px 2px 2px /*This shows the border widths for each side of the container*/
 }
-ul {
+ul { /*These are the properties for the menu*/
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden;/*This makes any content in the container which does not fit hidden*/
     background-color: #333;
 }
 
-li {
+li {/*These are the properties for the menu*/
     float: left;
 }
 
-li a {
+li a {/*These are the properties for the menu*/
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+li a:hover {/*These are the properties for the menu when a user hovers their mouse over the menu*/
     background-color: #ed1f24;
 }
 
-#imageAndTextWrapper{
+#imageAndTextWrapper{/*These are the properties for the images and text wrapper which containers current text and current image box. Thsi allows both containers to be on the same side.*/
 	width: 820px;
 	height: 530px;
 	margin: auto;
 	border: black solid;
 	border-width: 0 2px 2px 2px
 }
-#currentText{
+#currentText{/*These are the properties for the current text used on the current production page*/
 	width: 410px;
 	height: 530px;
 	display: block;
 	margin:auto;
-	float: left;
+	float: left; /*This property allows for two containers to fit on the same line*/
 }
-#currentImageBox{
+#currentImageBox{/*These are the properties for the current image container used on the current production page*/
 	display:block;			/*Default*/
 	position:relative;	/*Default*/
 	width:410px;
 	height:530px;
 	margin:0px auto;
-	float: right;
+	float: right; /*This property allows for two containers to fit on the same line*/
 }
-#currentImage{
+#currentImage{/*These are the properties for the current image used on the current production page*/
 	padding-top: 38px;
 	width:400px;
 	height:440px;
