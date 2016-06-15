@@ -22,7 +22,9 @@
 	include 'testing.php'
 	?>																											<!--temporary links at the top of the page to reduce clutter in the main page-->
 	<div id="header">
+		<a href="index.php">
 		<img src="assets/long logo.png"></img>
+	</a>
 	</div>
 
 	<div id="menu">
@@ -32,7 +34,7 @@
 	<div id="currentProductions">
 		<!-- start slipsum code -->
 
-<p>Well, the way they make shows is, they make one show. That show's called a pilot.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non </p>
 
 <!-- end slipsum code -->
 
