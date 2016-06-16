@@ -42,7 +42,7 @@ body{/*This gives all containers and content on the website these styles*/
 	border: black solid;
 	border-width: 0 2px 2px 2px /*This shows the border widths for each side of the container*/
 }
-ul { /*These are the properties for the menu*/
+#menu ul { /*These are the properties for the menu*/
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -50,18 +50,18 @@ ul { /*These are the properties for the menu*/
     background-color: #333;
 }
 
-li {/*These are the properties for the menu*/
+#menu li {/*These are the properties for the menu*/
     float: left;
 }
 
-li a {/*These are the properties for the menu*/
+#menu li a {/*These are the properties for the menu*/
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {/*These are the properties for the menu when a user hovers their mouse over the menu*/
+#menu li a:hover {/*These are the properties for the menu when a user hovers their mouse over the menu*/
     background-color: #ed1f24;
 }
 
@@ -126,6 +126,23 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 	border: black solid;
 	border-width: 0 2px 2px 2px
 }
+
+#contactUsBox{
+	display:block;			/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:300px;
+	margin:0px auto;
+	border: black solid;
+	border-width: 0 2px 2px 2px;
+	text-align: center;
+}
+
+#contactUsBox h1{
+	margin: 0;
+
+}
+
 #buttonWrapper{
 	display:block;		/*Default*/
 	position:relative;	/*Default*/
@@ -168,6 +185,28 @@ li a:hover {/*These are the properties for the menu when a user hovers their mou
 
 #aboutUs h1{
 	margin: 0;
+}
+
+#socialLinks{
+	display:block;		/*Default*/
+	position:relative;	/*Default*/
+	width:820px;
+	height:150px;
+	margin:0px auto;
+	text-align: center;
+	border: black solid;
+	border-width: 0 2px 2px 2px;
+	list-style-type: none;
+	padding: 0;
+}
+
+#socialLinks h1{
+	margin: 0;
+}
+
+#socialLinks img{
+display: block;
+padding: 0;
 }
 
 #ourSponsers{
@@ -260,6 +299,7 @@ div{
 	margin: auto;
 	display: block;
 }
+
 
 
 /*Backgroup-color for all*/
