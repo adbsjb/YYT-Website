@@ -13,7 +13,7 @@
 	<!-- Jquery start -->
 
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 	<!-- Jquery end -->
 </head>
@@ -22,7 +22,9 @@
 	include 'testing.php'
 	?>																											<!--temporary links at the top of the page to reduce clutter in the main page-->
 	<div id="header">
+		<a href="index.php">
 		<img src="assets/long logo.png"></img>
+	</a>
 	</div>
 
 	<div id="menu">
@@ -32,7 +34,7 @@
 	<div id="currentProductions">
 		<!-- start slipsum code -->
 
-<p>Well, the way they make shows is, they make one show. That show's called a pilot.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non </p>
 
 <!-- end slipsum code -->
 

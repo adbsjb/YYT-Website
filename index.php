@@ -13,7 +13,7 @@
 	<!-- Jquery start -->
 
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 	<!-- Jquery end -->
 
@@ -64,7 +64,7 @@
 	<div id="currentProductions">
 		<!-- start slipsum code -->
 
-<p>Well, the way they make shows is, they make one show. That show's called a pilot.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non </p>
 
 <!-- end slipsum code -->
 
@@ -79,7 +79,7 @@
 </div>
 <div id="buttonWrapper">
 	<div id="buttonOne">
-		<a href="currentProduction.HTML">
+		<a href="currentProduction.php">
 		<img class="button"></img>
 	</a>
 	</div>
